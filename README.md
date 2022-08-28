@@ -1,2 +1,2 @@
 # Excel-Computer
-Website template using html, css, javascript, bootsytap
+Website template using html, css, javascript, bootstrap
