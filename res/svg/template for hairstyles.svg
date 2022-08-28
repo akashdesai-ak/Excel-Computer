@@ -1,0 +1,11 @@
+<svg id="template_for_hairstyles" data-name="template for hairstyles" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264" height="280.001" viewBox="0 0 264 280.001">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask_Hair" data-name="Mask Hair" d="M264,280H232v-9a72.082,72.082,0,0,0-72-72h-4V180.611a56.186,56.186,0,0,0,31.792-45.744A12.066,12.066,0,0,0,198,123V110a11.957,11.957,0,0,0-10-11.834V92A56,56,0,0,0,76,92v6.167A11.956,11.956,0,0,0,66,110v13a12.066,12.066,0,0,0,10.209,11.866A56.186,56.186,0,0,0,108,180.611V199h-4a72.082,72.082,0,0,0-72,72v9H0V0H264V280Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Mask_Hair-2" data-name="Mask Hair" d="M264,280H232v-9a72.082,72.082,0,0,0-72-72h-4V180.611a56.186,56.186,0,0,0,31.792-45.744A12.066,12.066,0,0,0,198,123V110a11.957,11.957,0,0,0-10-11.834V92A56,56,0,0,0,76,92v6.167A11.956,11.956,0,0,0,66,110v13a12.066,12.066,0,0,0,10.209,11.866A56.186,56.186,0,0,0,108,180.611V199h-4a72.082,72.082,0,0,0-72,72v9H0V0H264V280Z" fill="none"/>
+  <g id="template_for_hairstyles-2" data-name="template for hairstyles" clip-path="url(#clip-path)">
+    <rect id="Long_Hair" data-name="Long Hair" width="264" height="280" fill="#944f23"/>
+  </g>
+</svg>

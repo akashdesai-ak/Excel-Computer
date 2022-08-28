@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="res/images/code.png" type="image/x-icon">
+
+    <title>Excel Computers - Home</title>
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top " data-aos="fade-down" data-aos-duration="1000">
+        <a class="navbar-brand brand-style" href="Home.html" >E<span class=""><img src="res/images/code.png"
+                    alt=""></span>cel
+            Computers</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#popular-courses">Courses</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="About.html" target="_blank">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" target="_blank">Contact</a>
+                </li>   
+                <!-- <li class="nav-item">
+                    <button type="button" class="btn btn-outline-dark" onclick="darkmode()">Dark</button>
+                </li> -->
+
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar End-->
+
+    <!-- Hero Section -->
+    <div id="home" class="container-fluid  p-2 " data-aos="fade-out" data-aos-duration="1000">
+        <div class="row m-2 ">
+            <div class="col-sm-12 col-md-6 col-xl-6 m-auto home-back" data-aos="fade-right" data-aos-duration="2000">
+                <p class="display-4 mt-5 font-weight-bold">Learn With Expert Anytime</p>
+                <p class="h5 text-black">Our mision is to help people to find the best course and learn with expert
+                    anytime.</p>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn btn-outline mt-5 hero-btn" data-toggle="modal" data-target="#my-modal">Register Now</button>
+                </div>
+                
+            </div>
+            <div class="img-hero col-sm-12 col-md-6 col-xl-6 svg-image">
+                <!-- <svg class="animated" id="freepik_stories-developer-activity" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:svgjs="http://svgjs.com/svgjs">
+
+                    <g id="freepik--background-simple--inject-2" class="animable"
+                        style="transform-origin: 250px 220.489px;">
+                        <path
+                            d="M456.55,209.11c-48.74-83.48-180.95-53.75-207.95-94.35C234.77,94,219.3,69.87,196.86,57.34c-21.39-12-46.19-16.21-67.81-14.63C51.84,48.36,19.11,117.44,33.94,193.3,53.74,294.49,143.44,397.86,250,398.58,305.74,399,359,379,400.7,350.87l.93-.63C443.33,321.85,493.77,272.84,456.55,209.11Z"
+                            style="fill: #00458b75; transform-origin: 250px 220.489px;" id="eloznezjgr2q"
+                            class="animable"></path>
+                  
+                </svg> -->
+                
+                <img src="res/images/student-group.png" class="img-fluid" alt="" width="600" data-aos="zoom-out" data-aos-duration="2000">
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+  <!-- modal -->
+    <div id="my-modal" class="modal fade bg-modal-form" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content ">
+                <div class="modal-header bg-modal">
+                    <h5 class="modal-title" id="my-modal-title">Excel Computers</h5>
+                    <button class="close btn-modal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-times-circle"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="myForm" action="#" class="form-group p-5">
+                        <h3 class="text-center">Send a Enquiry</h3>
+                        <input type="text" id="name" name="name" placeholder="Your Name*" class="form-control col-sm- mb-2"
+                            required>
+                        <input type="tel" id="phone" name="ph-number" placeholder="Phone Number" minlength="10" maxlength="10"
+                            class="form-control col-sm-12 mb-2">
+        
+                        <input type="email" id="email" name="email" placeholder="Your email*" required
+                            class="form-control col-sm-12 mb-2">
+        
+                        <textarea name="message" id="message" placeholder="Message"
+                            class="form-control col-sm-12 mb-2"></textarea>
+        
+        
+                        <!-- <button type="submit" class="btn btn-outline btn-md mb-2 contact-btn" onclick="">Submit
+                            <i class=   "fa fa-arrow-right"></i>
+                        </button> -->
+                   
+                </div>
+                <div class="modal-footer bg-modal">
+                    <button type="submit" class="btn btn-outline btn-md contact-btn" onclick="">Send Enquiry
+                        <i class=   "fa fa-arrow-right"></i>
+                    </button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+
+    <!--section Browse Course -->
+    <div id="browse-course" class="container-fluid p-5  d-flex  flex-column align-items-center justify-content-center"
+        data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
+        <p class="text-center mt-2 sec-title">Browse Course With Top Categories</p>
+
+        <div class="row d-flex justify-content-center align-items-center">
+
+            <div class="browse-course-item m-3">
+                <div class="circle-div-svg-1"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        style="color: #FFC91B;" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 31.6667L31.6667 20L36.6667 25L25 36.6667L20 31.6667Z" stroke="currentColor"
+                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M29.9999 21.6667L27.4999 9.16671L3.33325 3.33337L9.16659 27.5L21.6666 30L29.9999 21.6667Z"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        <path d="M3.33325 3.33337L15.9766 15.9767" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M18.3333 21.6667C20.1743 21.6667 21.6667 20.1743 21.6667 18.3333C21.6667 16.4924 20.1743 15 18.3333 15C16.4924 15 15 16.4924 15 18.3333C15 20.1743 16.4924 21.6667 18.3333 21.6667Z"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                    </svg></div>
+                <p class="text-center h5">Design</p>
+            </div>
+            <div class="browse-course-item m-3">
+                <div class="circle-div-svg-2"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        style="color: #FFC91B;" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M33.3333 5H6.66659C4.82564 5 3.33325 6.49238 3.33325 8.33333V25C3.33325 26.8409 4.82564 28.3333 6.66659 28.3333H33.3333C35.1742 28.3333 36.6666 26.8409 36.6666 25V8.33333C36.6666 6.49238 35.1742 5 33.3333 5Z"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        <path d="M13.3333 35H26.6666" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path d="M20 28.3334V35" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg></div>
+                <p class="text-center h5">Development</p>
+            </div>
+
+            <div class="browse-course-item m-3">
+                <div class="circle-div-svg-1"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        style="color: #FFC91B;" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 31.6667L31.6667 20L36.6667 25L25 36.6667L20 31.6667Z" stroke="currentColor"
+                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M29.9999 21.6667L27.4999 9.16671L3.33325 3.33337L9.16659 27.5L21.6666 30L29.9999 21.6667Z"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        <path d="M3.33325 3.33337L15.9766 15.9767" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M18.3333 21.6667C20.1743 21.6667 21.6667 20.1743 21.6667 18.3333C21.6667 16.4924 20.1743 15 18.3333 15C16.4924 15 15 16.4924 15 18.3333C15 20.1743 16.4924 21.6667 18.3333 21.6667Z"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                    </svg></div>
+                <p class="text-center h5">Design</p>
+            </div>
+            <div class="browse-course-item m-3">
+                <div class="circle-div-svg-2"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        style="color: #FFC91B;" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M33.3333 5H6.66659C4.82564 5 3.33325 6.49238 3.33325 8.33333V25C3.33325 26.8409 4.82564 28.3333 6.66659 28.3333H33.3333C35.1742 28.3333 36.6666 26.8409 36.6666 25V8.33333C36.6666 6.49238 35.1742 5 33.3333 5Z"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        <path d="M13.3333 35H26.6666" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path d="M20 28.3334V35" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg></div>
+                <p class="text-center h5">Development</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--section Browse Course end -->
+
+    <!-- section Popular Courses -->
+    <div id="popular-courses" class="jumbotron-fluid" data-aos="fade-up" data-aos-duration="2000"
+        data-aos-anchor-placement="top-bottom">
+
+        <div class="container">
+            <p class="mt-2 sec-title text-center">Our Popular Courses</p>
+            <div class="row p-4 d-flex justify-content-center align-items-center">
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3 "><img src="res/images/languages-img/c.png" alt="" class="img-fluid" width="336"
+                                height="245"></div>
+                        <div class="mt-5">
+                            <p class="h4 text-dark text-center">C Programming</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3 "><img src="res/images/languages-img/c++.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="mt-5">
+                            <p class="h4 text-dark text-center">C++ Programming</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/database.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="">
+                            <p class="h4 text-dark text-center">Database Management System</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/java.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">Java Programming</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/VB.NET_Logo.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">Visual Basic</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/vb.net.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">VB.Net</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/Csharp_Logo.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">C#.Net</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/asp2.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">ASP.Net</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/php.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">PHP</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/oracle.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">Oracle</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/sql.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">SQL Server</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/tally.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">Tally</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/web-designing.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">Web Designing</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-5 col-md-3 col-xl-3 border m-3 rounded  popular-courses-item" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <a href="" class="text-decoration-none">
+                        <div class="m-3"><img src="res/images/languages-img/Graphic-design.png" alt="" class="img-fluid"
+                                width="336" height="245"></div>
+                        <div class="align-bottom">
+                            <p class="h4 text-dark text-center">Graphic Designing</p>
+                            <hr>
+                            <p class="d-inline"> <img src="res/images/star.png" alt=""><span class="text-dark ">
+                                    4.5</span></p>
+                            <p class="d-inline float-right"> <img src="res/images/Clock.png" alt=""><span
+                                    class="text-dark"> 1 Month</span></p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- section Popular Courses end -->
+
+    <!-- Counter why us -->
+
+    <div id="why-us" class="container-fluid p-4">
+        <p class="mt-2 sec-title text-center" data-aos="fade-up" data-aos-duration="2000"
+            data-aos-anchor-placement="bottom-bottom">Why You'll Learn With Excel Computers</p>
+        <div class="row m-5 ">
+            <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="counter yellow">
+                    <div class="counter-icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Happy Learners</h3>
+                        <span class="counter-value">1000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="counter red">
+                    <div class="counter-icon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Best Courses</h3>
+                        <span class="counter-value">16</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="counter yellow">
+                    <div class="counter-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Brand Building</h3>
+                        <span class="counter-value">640</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="counter red">
+                    <div class="counter-icon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Responsive Design</h3>
+                        <span class="counter-value">605</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter End -->
+
+    <!--secton Students feedback -->
+    <div class="jumbotron-fluid p-5 " id="student-says">
+        <div class="container">
+            <div class="p-3 text-wrap">
+                <p class="sec-title text-center mt-3">What Our Students Says About Our Services</p>
+            </div>
+            <div id="studentCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="row mt-3 mb-3 carousel-inner d-flex align-items-center">
+
+                    <div class="col-xl-5 col-sm-12  single-box bg-white p-3 border rounded carousel-item active">
+
+                        <div class="info-area mt-2 ">
+                            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sapiente at dolor aliquam, quod provident vel eius necessitatibus fuga deserunt
+                                molestiae?</p>
+                            <div class="img-area">
+                                <img src="res/svg/template for hairstyles.svg" alt="" class="img-fluid" width="50">
+                                <p class="d-inline ml-2">Akash Desai</p>
+                                <img src="res/images/5star.png" alt="" width="100px" class="float-right mt-4">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class=" col-xl-5 col-sm-12 single-box p-3 border rounded bg-white carousel-item">
+
+                        <div class="info-area mt-2 ">
+                            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sapiente at dolor aliquam, quod provident vel eius necessitatibus fuga deserunt
+                                molestiae?</p>
+                            <div class="img-area ">
+                                <img src="res/svg/template for hairstyles.svg" alt="" class="img-fluid" width="50">
+                                <p class="d-inline ml-2">Alexa</p>
+                                <img src="res/images/5star.png" alt="" width="100px" class="float-right mt-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-sm-12 single-box bg-white p-3  border rounded carousel-item ">
+
+                        <div class="info-area mt-2 ">
+                            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sapiente at dolor aliquam, quod provident vel eius necessitatibus fuga deserunt
+                                molestiae?</p>
+                            <div class="img-area">
+                                <img src="res/svg/template for hairstyles.svg" alt="" class="img-fluid" width="50">
+                                <p class="d-inline ml-2">Lorem</p>
+                                <img src="res/images/5star.png" alt="" width="100px" class="float-right mt-4">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-5 col-sm-12 single-box bg-white p-3  border rounded carousel-item ">
+
+                        <div class="info-area ">
+                            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sapiente at dolor aliquam, quod provident vel eius necessitatibus fuga deserunt
+                                molestiae?</p>
+                            <div class="img-area">
+                                <img src="res/svg/template for hairstyles.svg" alt="" class="img-fluid" width="50">
+                                <p class="d-inline ml-2">Lorem ipsum</p>
+                                <img src="res/images/5star.png" alt="" width="100px" class="float-right mt-4">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-5 col-sm-12 single-box bg-white p-3  border rounded carousel-item ">
+
+                        <div class="info-area ">
+                            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sapiente at dolor aliquam, quod provident vel eius necessitatibus fuga deserunt
+                                molestiae?</p>
+                            <div class="img-area">
+                                <img src="res/svg/template for hairstyles.svg" alt="" class="img-fluid" width="50">
+                                <p class="d-inline ml-2">Nikhil Desai</p>
+                                <img src="res/images/5star.png" alt="" width="100px" class="float-right mt-4">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-5 col-sm-12 single-box bg-white p-3  border rounded carousel-item ">
+
+                        <div class="info-area ">
+                            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Sapiente at dolor aliquam, quod provident vel eius necessitatibus fuga deserunt
+                                molestiae?</p>
+                            <div class="img-area">
+                                <img src="res/svg/template for hairstyles.svg" alt="" class="img-fluid" width="50">
+                                <p class="d-inline ml-2">Kiran Desai</p>
+                                <img src="res/images/5star.png" alt="" width="100px" class="float-right mt-4">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#studentCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#studentCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--secton Students feedback end-->
+
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <div class="bg-secondary">
+        <!-- Footer -->
+        <footer class="text-center text-white bg-dark">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Links -->
+                <section class="mt-0">
+                    <!-- Grid row-->
+                    <div class="row text-center d-flex justify-content-center pt-5">
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#home" class="text-white">Home</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="Home.html" class="text-white">Courses</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="About.html" class="text-white">About</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="Contact.html" class="text-white">Contact</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+                <hr class="my-5" />
+
+                <!-- Section: Text -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                                distinctio earum repellat quaerat voluptatibus placeat nam,
+                                commodi optio pariatur est quia magnam eum harum corrupti
+                                dicta, aliquam sequi voluptate quas.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section: Text -->
+
+                <!-- Section: Social -->
+                <section id="social" class="text-center mb-5">
+                    <a href="" class="text-white m-2">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-white m-2">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-white m-2">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="text-white m-2">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="text-white m-2">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="text-white m-2">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </section>
+                <!-- Section: Social -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2022 Copyright :
+                <a class="text-white" href="Home.html"> E<span class=""><img src="res/images/code.png" alt=""></span>cel
+                    Computers</a>
+                <p class="mt-2 mb-0"> Made with ❤ by
+                    <a href="Home.html" class="text-white">Akash Desai</a>
+                </p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+    <!-- Footer end -->
+
+
+    <script src="Bootstrap/bootstrap/js/jquery-3.3.1.js"></script>
+    <script src="Bootstrap/bootstrap/js/bootstrap.min.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/BackToTop.js"></script>
+    <script src="js/card-carousel.js"></script>
+   
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);
+    </script>
+
+    <!-- <script>
+    function darkmode() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+
+       
+    }
+    </script> -->
+
+    </script>
+</body>
+
+</html>
